@@ -14,6 +14,6 @@ Following topics are covered:
 - Logging in console
 - View errors
 
-Referred Pages
+## Referred Pages
 - [Extensions 101](https://developer.chrome.com/docs/extensions/mv3/getstarted/extensions-101/)
 - [Development basics](https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/)
