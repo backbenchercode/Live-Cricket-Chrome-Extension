@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+}
+
+header {
+    background: #00A8F4;
+    padding: 10px;
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+}
+
+.logotext {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.poweredby {
+    display: flex;
+    align-items: center;
+}
+
+.poweredby img {
+    height: 20px;
+    width: auto;
+    display: block;
+    margin-left: 5px;
+}
+
+.container {
+    width: 450px;
+}
+
+main {
+    padding: 0 10px;
+}
+
+.match-box {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.match-box:last-child {
+    border: none;
+}
+
+.live-text {
+    line-height: 1.25rem;
+    color: rgb(228, 66, 66);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.match-meta {
+    color: rgb(108,109,111);
+    margin-bottom: 8px;
+}
+
+.match-meta a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+.team-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.team-name {
+    display: flex;
+    align-items: center;
+}
+
+.team-name img {
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+
+.team-name .country {
+    margin-left: 5px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: rgb(43,44,45);
+}
+
+.team-score {
+    display: flex;
+}
+
+.overs {
+    margin-right: 5px;
+}
+
+.runs {
+    font-weight: 500;
+}
+
+.match-progress {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.progress-text {
+    font-size: 12px;
+}
+
+/* CSS */
+.button {
+  background-color: #00A8F4;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 4px .8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #07c;
+}
+
+.button:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.button:active {
+  background-color: #0064bd;
+  box-shadow: none;
+}
+
+#no-live-matches {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+}
