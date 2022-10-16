@@ -100,8 +100,12 @@ const renderPopupHTML = (liveMatches) => {
           <div class="progress-text">
             Bangladesh need 90 runs in 36 balls.
           </div>
-          <div class="follow-button">
-            <button class="button">Follow</button>
+          <div class="toggle-notification">
+            <span>Notify Score Updates </span>
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider round"></span>
+            </label>
           </div>
         </div>
       </div>
