@@ -21,9 +21,18 @@ Following topics are covered in this section:
 - Popup Design
 - Popup JavaScript
 
+## Part 3 - Webpage Crawling
+
+Following topics are covered in this section:
+- Cross-Origin policy
+- Crawling external sites
+- Extract relevant content
+- Render content in popup
+
 ## Referred Pages
 - [Extensions 101](https://developer.chrome.com/docs/extensions/mv3/getstarted/extensions-101/)
 - [Development basics](https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/)
+- [Cross-origin XMLHttpRequest](https://developer.chrome.com/docs/extensions/mv3/xhr/)
 
 ## Attributes
 - [Cricket bat icons created by Smashicons - Flaticon](https://www.flaticon.com/free-icons/cricket-bat)

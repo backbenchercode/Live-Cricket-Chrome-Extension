@@ -157,6 +157,16 @@ main {
   box-shadow: none;
 }
 
+#espnDOM {
+    display: none;
+}
+
+#loading {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+}
+
 #no-live-matches {
     text-align: center;
     padding: 20px 0;
