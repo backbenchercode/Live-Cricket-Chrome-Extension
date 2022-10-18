@@ -27,7 +27,7 @@ const extractLiveMatches = () => {
   console.log(allMatches);
 
   const allLiveMatches = allMatches.filter(
-    (match) => match.status === "RESULT" && match.coverage === "Y"
+    (match) => match.status === "Live" && match.coverage === "Y"
   );
 
   const allLiveMatchesTransformed = allLiveMatches.map((match) => {

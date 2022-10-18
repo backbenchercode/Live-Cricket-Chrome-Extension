@@ -122,6 +122,12 @@ main {
     font-size: 14px;
 }
 
+#loading {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+}
+
 .toggle-notification {
     display: flex;
     align-items: center;
