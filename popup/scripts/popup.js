@@ -140,7 +140,7 @@ const renderPopupHTML = (liveMatches) => {
       `);
       setInterval(() => {
         renderScores(match.matchId, match.matchUrl);
-      }, 5000);
+      }, 2000);
       renderScores(match.matchId, match.matchUrl);
     });
   } else {
