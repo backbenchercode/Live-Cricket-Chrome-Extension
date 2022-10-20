@@ -93,7 +93,12 @@ const renderPopupHTML = (liveMatches) => {
     liveMatches.forEach((match) => {
       $("#live-matches").append(`
       <div class="match-box" id="id-${match.matchId}">
-        <div class="live-text">Live</div>
+        <div class="match-header">
+          <div class="live-text">Live</div>
+          <div class="match-link">
+            <a href="${match.matchUrl}" target="_blank"> View Match </a>
+          </div>
+        </div>
         <div class="match-meta">
           ${match.fixture}
         </div>
@@ -145,7 +150,7 @@ const renderPopupHTML = (liveMatches) => {
 };
 
 const loadLiveMatches = async () => {
-  const showallMatches = false;
+  const showallMatches = true;
   if (showallMatches) {
     await fetchLiveMatches();
     const liveMatches = extractLiveMatches();
